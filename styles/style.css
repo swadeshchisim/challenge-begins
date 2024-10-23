@@ -101,7 +101,7 @@ nav {
 .why-web-development {
     width: 850px;
     margin: 0 auto;
-    padding: 80px 97px;
+    padding: 80px 0;
 }
 .why-web-development > .section-description {
     padding-bottom: 24px;
@@ -109,7 +109,7 @@ nav {
 .info {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
     padding: 48px;
 }
 .info-title {
@@ -119,4 +119,7 @@ nav {
 }
 .info-description {
     padding: 16px 0 32px;
+}
+.info-img {
+    width: 262px;
 }
