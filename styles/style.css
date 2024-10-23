@@ -13,3 +13,42 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* Common Styles */
+.primary-color {
+    color: #0D1321;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Header Area Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+.logo {
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    padding-top: 32px;
+}
