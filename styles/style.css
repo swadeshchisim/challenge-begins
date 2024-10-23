@@ -36,11 +36,13 @@ body {
 .section-title {
     font-size: 32px;
     font-weight: 800;
+    padding-bottom: 24px;
 }
 .section-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    padding: 0 47px;
 }
 
 /* Header Area Styles */
@@ -79,4 +81,10 @@ nav {
     border-radius: 8px;
     padding: 17px 24px;
     background: #0D1321;
+}
+
+/* Why Web Development Styles */
+.why-web-development {
+    width: 850px;
+    padding: 80px 97px;
 }
