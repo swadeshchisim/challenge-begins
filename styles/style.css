@@ -52,6 +52,12 @@ body {
     border: 1px solid #0D1321;
     opacity: 0.8;
 }
+.learn-more-btn:hover {
+    cursor: pointer;
+}
+.light-black {
+    color: rgba(13, 19, 33, 0.70);
+}
 
 /* Header Area Styles */
 nav {
@@ -94,12 +100,23 @@ nav {
 /* Why Web Development Styles */
 .why-web-development {
     width: 850px;
+    margin: 0 auto;
     padding: 80px 97px;
 }
 .why-web-development > .section-description {
     padding-bottom: 24px;
 }
-.why-web-development-info {
+.info {
     display: flex;
+    align-items: center;
     gap: 100px;
+    padding: 48px;
+}
+.info-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.info-description {
+    padding: 16px 0 32px;
 }
