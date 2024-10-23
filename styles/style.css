@@ -42,7 +42,15 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0 47px;
+}
+.learn-more-btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
 }
 
 /* Header Area Styles */
@@ -87,4 +95,11 @@ nav {
 .why-web-development {
     width: 850px;
     padding: 80px 97px;
+}
+.why-web-development > .section-description {
+    padding-bottom: 24px;
+}
+.why-web-development-info {
+    display: flex;
+    gap: 100px;
 }
