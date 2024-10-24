@@ -137,6 +137,8 @@ iframe {
 
 /* Styles for Skills */
 .skills {
+    display: flex;
+    justify-content: space-between;
     padding: 48px 0;
 }
 .skill {
