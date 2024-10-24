@@ -58,6 +58,9 @@ body {
 .light-black {
     color: rgba(13, 19, 33, 0.70);
 }
+.pb-24 {
+    padding-bottom: 24px;
+}
 
 /* Header Area Styles */
 nav {
@@ -130,4 +133,12 @@ iframe {
     border: 1px solid rgba(13, 19, 33, 0.20);
     border-radius: 16px;
     margin: 48px 0;
+}
+
+/* Styles for Skills */
+.skills {
+    padding: 48px 0;
+}
+.skill {
+    padding: 40px;
 }
