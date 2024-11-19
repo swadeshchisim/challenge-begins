@@ -213,10 +213,23 @@ footer {
 
 /* Responsive Media Query Styles*/
 @media only screen and (max-width: 576px) {
-    .skills, .next-skill {
+    .info, .skills, .next-skill {
         flex-direction: column;
+    }
+    .info-reverse {
+        flex-direction: column-reverse;
+    }
+    .why-web-development {
+        width: 100%;
     }
     iframe {
         width: 400px;
     }
+    .info-img > img {
+        width: 100%;
+    }
+}
+
+.hide {
+    display: none;
 }
