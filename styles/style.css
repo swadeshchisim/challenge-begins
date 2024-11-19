@@ -132,6 +132,8 @@ nav {
 
 /* My inspiration styles */
 iframe {
+    width: 1076px;
+    height: 550px;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.20);
     border-radius: 16px;
@@ -217,6 +219,22 @@ footer {
     nav {
         padding: 20px;
     }
+    .banner-content {
+        width: 100%;
+    }
+    .banner-content > .section-description {
+        padding: 20px;
+    }
+    .banner-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .banner-btn {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 12px 16px;
+    }
+    
     .info, .skills, .next-skill {
         flex-direction: column;
     }
@@ -227,7 +245,8 @@ footer {
         width: 100%;
     }
     iframe {
-        width: 400px;
+        width: 450px;
+        padding: 0;
     }
     .info-img > img {
         width: 100%;
