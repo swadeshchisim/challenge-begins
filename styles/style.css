@@ -68,6 +68,7 @@ a,button:hover {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 36px 0;
 }
 .logo {
@@ -213,6 +214,9 @@ footer {
 
 /* Responsive Media Query Styles*/
 @media only screen and (max-width: 576px) {
+    nav {
+        padding: 20px;
+    }
     .info, .skills, .next-skill {
         flex-direction: column;
     }
@@ -227,6 +231,9 @@ footer {
     }
     .info-img > img {
         width: 100%;
+    }
+    .btn {
+        font-size: 16px;
     }
 }
 
